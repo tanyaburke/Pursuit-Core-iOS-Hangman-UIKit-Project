@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2988062382A4AB00C2AC03 /* PlayerVsComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2988052382A4AB00C2AC03 /* PlayerVsComputerViewController.swift */; };
+		2E565A28237F0968007E7042 /* GameOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E565A27237F0968007E7042 /* GameOptionViewController.swift */; };
+		2EB94A8C237E136F0066999E /* AllTheWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94A8B237E136F0066999E /* AllTheWords.swift */; };
+		2EB94A90237E19780066999E /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94A8F237E19780066999E /* Brain.swift */; };
+		2EC81C0923843026000DC3BE /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC81C0823843026000DC3BE /* GuessViewController.swift */; };
 		57FCB5F421A36D3D00163B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCB5F321A36D3D00163B8E /* AppDelegate.swift */; };
-		57FCB5F621A36D3D00163B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCB5F521A36D3D00163B8E /* ViewController.swift */; };
+		57FCB5F621A36D3D00163B8E /* EnterWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCB5F521A36D3D00163B8E /* EnterWordViewController.swift */; };
 		57FCB5F921A36D3D00163B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FCB5F721A36D3D00163B8E /* Main.storyboard */; };
 		57FCB5FB21A36D3E00163B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FCB5FA21A36D3E00163B8E /* Assets.xcassets */; };
 		57FCB5FE21A36D3E00163B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FCB5FC21A36D3E00163B8E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E2988052382A4AB00C2AC03 /* PlayerVsComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVsComputerViewController.swift; sourceTree = "<group>"; };
+		2E565A27237F0968007E7042 /* GameOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptionViewController.swift; sourceTree = "<group>"; };
+		2EB94A8B237E136F0066999E /* AllTheWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTheWords.swift; sourceTree = "<group>"; };
+		2EB94A8F237E19780066999E /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		2EC81C0823843026000DC3BE /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
 		57FCB5F021A36D3D00163B8E /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FCB5F321A36D3D00163B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57FCB5F521A36D3D00163B8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57FCB5F521A36D3D00163B8E /* EnterWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterWordViewController.swift; sourceTree = "<group>"; };
 		57FCB5F821A36D3D00163B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57FCB5FA21A36D3E00163B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FCB5FD21A36D3E00163B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6EEC4B239699330095A0CE /* single player */ = {
+			isa = PBXGroup;
+			children = (
+				2E2988052382A4AB00C2AC03 /* PlayerVsComputerViewController.swift */,
+				2EB94A8B237E136F0066999E /* AllTheWords.swift */,
+			);
+			path = "single player";
+			sourceTree = "<group>";
+		};
 		57FCB5E721A36D3D00163B8E = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +74,11 @@
 			isa = PBXGroup;
 			children = (
 				57FCB5F321A36D3D00163B8E /* AppDelegate.swift */,
-				57FCB5F521A36D3D00163B8E /* ViewController.swift */,
+				2E565A27237F0968007E7042 /* GameOptionViewController.swift */,
+				57FCB5F521A36D3D00163B8E /* EnterWordViewController.swift */,
+				2EC81C0823843026000DC3BE /* GuessViewController.swift */,
+				2EB94A8F237E19780066999E /* Brain.swift */,
+				2E6EEC4B239699330095A0CE /* single player */,
 				57FCB5F721A36D3D00163B8E /* Main.storyboard */,
 				57FCB5FA21A36D3E00163B8E /* Assets.xcassets */,
 				57FCB5FC21A36D3E00163B8E /* LaunchScreen.storyboard */,
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FCB5F621A36D3D00163B8E /* ViewController.swift in Sources */,
+				2EB94A8C237E136F0066999E /* AllTheWords.swift in Sources */,
+				57FCB5F621A36D3D00163B8E /* EnterWordViewController.swift in Sources */,
+				2EB94A90237E19780066999E /* Brain.swift in Sources */,
 				57FCB5F421A36D3D00163B8E /* AppDelegate.swift in Sources */,
+				2EC81C0923843026000DC3BE /* GuessViewController.swift in Sources */,
+				2E2988062382A4AB00C2AC03 /* PlayerVsComputerViewController.swift in Sources */,
+				2E565A28237F0968007E7042 /* GameOptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
